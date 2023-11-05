@@ -112,11 +112,57 @@
       >
         LinkedIn
       </a>
+      <br />
+      <h3 class="topic">Get in touch</h3>
       <form
         action="https://formsubmit.co/fulufhedzanimulaudzi@gmail.com"
         method="POST"
-      ></form>
-      <input type="email" name="email" placeholder="email here"
+      >
+        <div class="form">
+          <label for="Full Names">Full Name</label>
+          <input type="text" name="Full name" required />
+        </div>
+        <br />
+        <div class="form">
+          <label for="Email">Email</label>
+          <input type="email" name="email" placeholder="email here" required />
+        </div>
+        <br />
+
+        <div class="form">
+          <label for="Phone">Phone</label>
+          <input
+            type="numeric"
+            name="phone"
+            placeholder="phone number here"
+            required
+          />
+        </div>
+        <br />
+
+        <div class="form1">
+          <fieldset>
+            <legend>Contact preference</legend>
+            <label
+              ><input type="radio" name="checkbox" value="Email" /> Email</label
+            >
+            <label
+              ><input type="radio" name="checkbox" value="Phone" /> Phone</label
+            >
+          </fieldset>
+        </div>
+        <br />
+
+        <div class="form1">
+          <label for="message">Message</label>
+          <textarea
+            name="user_message"
+            id="About"
+            placeholder="optional"
+          ></textarea>
+          <input type="submit" />
+        </div>
+      </form>
     </footer>
   </body>
 </html>
