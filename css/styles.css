@@ -80,8 +80,9 @@ h2 {
   background-color: aliceblue;
   background-image: url(../photos/face-pic.jpg);
   background-size: cover;
-  background-blend-mode: darken;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   padding-top: 15px;
   padding-bottom: 35px;
 }
