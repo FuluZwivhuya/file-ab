@@ -40,7 +40,7 @@ body {
   height: 300px;
   background-color: chocolate;
   border-radius: 20%;
-  margin-left: 200px;
+  margin-left: 25px;
 }
 #top {
   width: 20px;
@@ -78,8 +78,15 @@ h2 {
 
 .banner {
   background-color: aliceblue;
-  background-image: url(../photos/half-pic.jpg);
+  background-image: url(../photos/face-pic.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
   padding-top: 15px;
   padding-bottom: 35px;
-  background-repeat: inherit;
+}
+
+picture {
+  margin-left: 5%;
+  margin-right: 5%;
 }
