@@ -1,5 +1,5 @@
 html {
-  background-color: orange;
+  background-color: darkgray;
 }
 header {
   background-color: beige;
@@ -22,7 +22,7 @@ a {
 html {
   border-style: solid;
   border-width: 20px;
-  border-color: chocolate;
+  border-color: peachpuff;
 }
 ol {
   width: 200px;
@@ -78,7 +78,7 @@ h2 {
 
 .banner {
   background-color: aliceblue;
-  background-image: url(../image/favicon.png.png);
+  background-image: url(../photos/color.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
