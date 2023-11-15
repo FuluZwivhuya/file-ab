@@ -107,6 +107,9 @@ picture {
   h2 {
     font-size: 1.5rem;
   }
+  body {
+    font-size: medium;
+  }
   picture {
     margin-left: 5px;
     margin-right: 50px;
@@ -127,6 +130,9 @@ picture {
   }
   h2 {
     font-size: 2rem;
+  }
+  body {
+    font-size: large;
   }
   picture {
     margin-left: 25px;
